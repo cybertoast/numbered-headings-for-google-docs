@@ -8,12 +8,14 @@ Then, click "Add-ons > Numbered headings > Update", to add automatic numbering t
 headings in the document. Start a Heading1 with 1. to reset the numbering.
 
 ## Installation
-In one of your Google docs, go to Tools > Script editor and replace the contents 
-of Code.gs with the contents of this file. Replace the name "Untitled project" 
-with e.g. "Numbered headings". This will register a menu item under "Add-ons > 
-Numbered headings > Update" on document open. Click "Run > addToDocumentNow"
-if you want to add the menu item right away, without closing and reopening the 
-document.
+
+* In one of your Google docs, go to Tools > Script editor and replace the contents 
+of Code.gs with the contents of the Code.js file from this folder. 
+* Replace the name "Untitled project" with e.g. "Numbered headings". 
+* Save the script
+* This will register a menu item under "Add-ons > Numbered headings > Update" on document open. 
+* Click "Run > addToDocumentNow" if you want to add the menu item right away, without closing and reopening the document.
+* If you don't see "Google Docs Numbered Headings" under Add-ons, close and re-open your Google Doc
 
 ## Credits
 Credit to Paul Thomas for [original version](http://www.extended-content.com/google-docs-how-to-get-automatic-header-numbering/).
